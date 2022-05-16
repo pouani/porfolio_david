@@ -77,6 +77,12 @@ p, a{
     }
 }
 
+@media screen and (max-width: 900px) {
+    .don{
+        display: none;
+    }
+}
+
 @media screen and (max-width:1100px) {
     .d-content{
         height: 60vh;
