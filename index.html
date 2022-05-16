@@ -24,13 +24,16 @@
                 <div class="d-content text-center flex justify-center items-center">
                     <div class="d-card-text ">
                         <h2 class="text-3xl font-bold text-gray-800 md:text-3xl">
-                            <span class="text-blue-600 text-4xl lg:text-5xl dark:text-blue-400 ">David Ulrich</span><br />
+                            <span class="text-blue-600 text-4xl lg:text-5xl dark:text-blue-400 ">David Pouani</span><br />
                             <strong>Développeur web et analyste</strong>
                         </h2>
-                        <p class="mt-4 text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti architecto ab corporis earum amet velit dicta assumenda est voluptate? Natus!</p>
+                        <p class="mt-4 text-gray-600">
+                            Développeur web frontend junior axés principalement sur les technos <strong>Vuejs</strong>, <strong>Angular</strong> et <strong>Asp.net core</strong>. Mon objectif à long terme c'est de lancer ma propre structure faisant dans la prestation des services informatque don't les objets connectés en font partis...
+                        </p>
                         <div class="d-btn mt-8">
-                            <a href="#next" class="px-5 py-2 text-gray-100 transition-colors duration-200 transform bg-gray-900 rounded-md hover:bg-gray-700">Parcourir</a>
-                            <a href="https://wa.me/237699143636" class="px-5 py-2 text-white transition-colors duration-200 transform bg-blue-500 rounded-md hover:bg-gray-700">Discussion</a>
+                            <a href="#next" class="px-5 py-2 text-gray-100 transition-colors duration-200 transform bg-gray-900 rounded-md hover:bg-gray-700 focus:outline-none focus:ring focus:ring-gray-300 focus:ring-opacity-80">Parcourir</a>
+                            <a href="https://wa.me/237699143636" class="px-5 py-2 text-white transition-colors duration-200 transform bg-blue-500 rounded-md hover:bg-blue-700 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">Discussion</a>
+                            <button onclick="document.getElementById('modal').style.display='block'" href="#" class="text-white px-5 py-2 transition-colors duration-200 transform bg-blue-600 rounded-full hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80"><i class="fa-solid fa-plus"></i></button>
                         </div>
                     </div>
                     <li class="d-img img-desk"><img src="photo/dav.png" alt=""></li>
@@ -70,7 +73,7 @@
                 <div class="d-langages text-center py-12">
                     <h2 class="text-3xl py-4">Skills et Experiences</h2>
                    <div class="py-6">
-                       <h3 class="text-2xl">Langages de programmations Mannipulés</h3><br>
+                       <h3 class="text-2xl">Langages de programmation Mannipulés</h3><br>
                         <ul class="lang-p flex justify-center gap-2 lg:gap-8">
                             <li class="bg-red-300"><img src="photo/5352-html5_102567.png" alt=""></li>
                             <li class="bg-blue-300"><img src="photo/css.png" alt=""></li>
@@ -101,7 +104,7 @@
                     </div><br>
                     <div class="flex justify-center">
                         <div class="d-experience">
-                            <h2 class="text-2xl py-4">Expérience professionelle</h2>
+                            <h2 class="text-2xl py-4">Expérience professionnelle</h2>
                             <div class="wrapper">
                                 <button class="toggle">
                                     <p>Développeur <strong>Shopify</strong> chez <strong>Appolon sarl</strong></p>
@@ -112,6 +115,7 @@
                                     <p>
                                         Développer des themes shopify selon les besoins du clients pour qu'il puisse customisé son thème de part ses préferences. En utilisant pricipalement du <strong>Liquid, code schema(json), javscript, Html5, css3.</strong> 
                                     </p>
+                                    <p>du 22/03 à nos jours</p>
                                 </div>
                             </div>
                             <div class="wrapper">
@@ -122,9 +126,11 @@
                                     <i class="fas fa-plus icon"></i>
                                 </button>
                                 <div class="content">
+                                    <h3 class="text-2xl">Taches :</h3>
                                     <p>
                                         Responsable du développement d'inteface web de la plateforme Youstreaming en utilisant principalement Html5, css3, js et les bibliothèques associées
                                     </p>
+                                    <p>du 08 au 11/2019</p>
                                 </div>
                             </div>
                             <div class="wrapper">
@@ -135,9 +141,11 @@
                                     <i class="fas fa-plus icon"></i>
                                 </button>
                                 <div class="content">
+                                    <h3 class="text-2xl">Taches :</h3>
                                     <p>
                                         Chargez de continuer la conception <strong>d'APIs</strong> de paiement pour l'application <strong>Light</strong> de l'entreprise
                                     </p>
+                                    <p>du 06 au 07/2021</p>
                                 </div>
                             </div>
                             <div class="wrapper">
@@ -148,9 +156,11 @@
                                     <i class="fas fa-plus icon"></i>
                                 </button>
                                 <div class="content">
+                                    <h3 class="text-2xl">Taches :</h3>
                                     <p>
                                         Concevoir des site publicitaire pour la <strong>publicité</strong> des différents clients ou potentiels clients. Aussi des sites <strong>Mobile</strong> Tout ceci sur la plateforme <strong>EkoSMS</strong>
                                     </p>
+                                    <p>du 08 au 10/2020</p>
                                 </div>
                             </div>
                         </div>
@@ -171,6 +181,36 @@
                             <li><i class="fa-solid fa-circle-check mx-2 text-green-500"></i>Cuisine</li>
                             <li><i class="fa-solid fa-circle-check mx-2 text-green-500"></i>Voyages</li>
                             <li><i class="fa-solid fa-circle-check mx-2 text-green-500"></i>Jeux vidéos</li>
+                        </div>
+                    </div>
+                    <div class="overlay " id="modal">
+                        <button onclick="document.getElementById('modal').style.display='none'" class="my-2"><i class="fa-solid fa-xmark"></i></button>
+                        <div class="flex px-4 justify-center items-center h-full">
+                            <div class="infop text-left px-8 py-6 bg-white rounded-md">
+                                <li>Nom : Pouani Chouameni Ulrich</li>
+                                <li>Adresse: Kotto Bonamoussadi</li>
+                                <li>Age: 24</li>
+                                <li>Situation matrimoniale: pas mariés et sans enfants</li><br>
+                                <ul class="py-2 leading-loose">
+                                    <h2 class="text-2xl ">Formations</h2>
+                                    <li class="my-2">
+                                        <i class="fa-solid fa-check mx-2"></i><strong>Licence professionnelle Génie logiciel</strong>
+                                        <p>2021/2022(en cours) à IUC(ISTDI)</p>
+                                    </li>
+                                    <li class="my-2">
+                                        <i class="fa-solid fa-check mx-2"></i><strong>BTS en Génié logiciel</strong>
+                                        <p>2020/2021 à IUC(ISTDI)</p>
+                                    </li>
+                                    <li class="my-2">
+                                        <i class="fa-solid fa-check mx-2"></i><strong>Bts I Informatique et mathématique </strong>
+                                        <p>2018/2019 Université de Douala</p>
+                                    </li>
+                                    <li class="my-2">
+                                        <i class="fa-solid fa-check mx-2"></i><strong>Baccalauréat scientifique option médecine(D)</strong> 
+                                        <p>2017/2018 Lycée Bilingue Ngodi Bakoko</p>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
