@@ -124,7 +124,14 @@ p, a{
     }
    
 }
-
+@media screen and (min-width: 600px) and (max-width: 890px){
+    .d-langages{
+        margin-top: 146px;
+    }
+    .d-Desk{
+        margin-top: 12px;
+    }
+}
 .lang-p li{
     max-width: 80px;
     padding: 12px;
